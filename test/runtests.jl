@@ -2,5 +2,5 @@ using MyFirstPackage
 using Test
 
 @testset "MyFirstPackage.jl" begin
-    # Write your tests here.
+    include("test_shortest.jl")
 end
